@@ -1,16 +1,24 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './routes/Home/Home.jsx';
-import Products from './routes/Products/Products.jsx';
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import './App.css'
-import Admin from './components/Admin/Admin.jsx';
+
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/produtos" element={<Products/>} />
-      <Route path='/admin' element={<Admin/>}></Route>
-    </Routes>
+    <div>
+      <header className="navbar">
+        <nav>
+          <Navbar />
+        </nav>
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </div>
   );
 };
 

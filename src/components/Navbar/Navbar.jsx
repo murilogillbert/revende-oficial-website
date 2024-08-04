@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { Link } from "react-router-dom";
 import './Navbar.css'
 export default function Navbar() {
@@ -6,7 +6,7 @@ export default function Navbar() {
 
 
     return (
-        <>
+        <div className={'navbar'}>
             <h1>Navbar</h1>
             <div>
                 <Link to='/produtos'>Produtos</Link>
@@ -17,6 +17,6 @@ export default function Navbar() {
                 <Link to='/login'>Login</Link>
                 <Link to='/cadastro'>Cadastro</Link>
             </div>)}
-        </>
+        </div>
     )
 }

@@ -3,6 +3,10 @@
     flex-direction: column;
     justify-content: center;
   }
+  .produtos h1,h2{
+    display: flex;
+    justify-content: center;
+  }
   
   .category {
     margin-bottom: 2rem;
@@ -11,15 +15,17 @@
   .product-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;
+    width: 100%;
   }
   
   .product-card {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 5px;
-    width: calc(33.333% - 1rem);
-    padding: 1rem;
+    width: calc(33% - 2rem);
+    padding: 2rem;
     text-align: center;
   }
   
@@ -38,5 +44,9 @@
   .product-card p {
     color: #555;
     font-size: 1rem;
+  }
+
+  .product-card span{
+    color: chartreuse;
   }
   

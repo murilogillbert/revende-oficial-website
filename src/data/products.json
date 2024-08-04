@@ -12,6 +12,15 @@
           "name": "macbook2",
           "description": "Algo sobre o produto",
           "img": "src/assets/2-mac.jpg"
+        },        {
+          "name": "macbook1",
+          "description": "Algo sobre o produto",
+          "img": "src/assets/1-mac.jpg"
+        },
+        {
+          "name": "macbook2",
+          "description": "Algo sobre o produto",
+          "img": "src/assets/2-mac.jpg"
         }
       ]
     },
@@ -20,6 +29,15 @@
       "category": "watch",
       "products": [
         {
+          "name": "watch1",
+          "description": "Algo sobre o produto",
+          "img": "src/assets/1-watch.png"
+        },
+        {
+          "name": "watch2",
+          "description": "Algo sobre o produto",
+          "img": "src/assets/2-watch.png"
+        },        {
           "name": "watch1",
           "description": "Algo sobre o produto",
           "img": "src/assets/1-watch.png"
